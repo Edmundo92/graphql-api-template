@@ -1,5 +1,5 @@
 import db from "./src/db/db";
-import { ApolloServer} from "apollo-server";
+import { ApolloServer } from "apollo-server";
 import { fileLoader, mergeResolvers, mergeTypes } from "merge-graphql-schemas";
 
 const PORT = 4000;
