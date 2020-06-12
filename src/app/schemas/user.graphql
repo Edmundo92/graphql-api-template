@@ -1,0 +1,9 @@
+
+type UserPayload {
+    id: Int
+    name: String
+}
+
+type Query {
+    users: [UserPayload]
+}
